@@ -10,7 +10,7 @@ API_TOKEN = os.getenv['API_TOKEN']
 API_URL = 'https://api-inference.huggingface.co/models/facebook/detr-resnet-50'
 
 # folder containing images, select bikes, cars, motorbikes here
-folder_path = 'data/bike/1'
+folder_path = 'data/bicycle'
 
 # set up variables
 total_images = 0
@@ -62,3 +62,6 @@ print(f"Total images: {total_images}")
 print(f"Classified as containing {vehicle}: {vehicle_count}")
 print(f"Not classified as containing {vehicle}: {not_vehicle_count}")
 print(f"Not classified as containing {vehicle}: {not_vehicle_images}")
+
+
+

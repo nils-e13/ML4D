@@ -9,6 +9,9 @@ __pycache__/
 # API tokens
 .env
 
+# Media
+.data
+
 # Distribution / packaging
 .Python
 build/
